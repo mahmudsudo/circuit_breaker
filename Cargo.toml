@@ -3,7 +3,7 @@ name = "circuit_breaker"
 version = "0.1.0"
 authors = ["Mahmudsudo <blinkztyler@gmail.com>"]
 description = "A Rust implementation of the Circuit Breaker pattern for building resilient and fault-tolerant systems."
-license = "APACHE"
+license = "Apache-2.0"
 repository = "https://github.com/mahmudsudo/circuit_breaker.git"
 
 [dependencies]
