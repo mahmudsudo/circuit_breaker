@@ -12,17 +12,18 @@ A Rust implementation of the Circuit Breaker pattern, designed to improve the st
 ## Installation
 
 Add this to your `Cargo.toml`:
-toml
+```toml
 [dependencies]
 circuit_breaker = "0.1.0"
-
+```
 
 ## Usage
 
 Here's a basic example of how to use the Circuit Breaker:
 
-rust
-'''
+
+
+```rust
 use circuit_breaker::CircuitBreaker;
 use std::time::Duration;
 use std::error::Error;
@@ -42,7 +43,7 @@ Err(std::io::Error::new(std::io::ErrorKind::Other, "test error"))
 println!("Error Result: {:?}", error_result);
 Ok(())
 }
-'''
+```
 
 
 ## API
@@ -82,7 +83,7 @@ This implementation is thread-safe and can be safely shared between threads.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
